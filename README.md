@@ -2,7 +2,9 @@
 Postgres 14.2 with zhparser
 
 ## Docker Build
-``` docker -D build --tag postgresql-zhparser --no-cache --progress=plain . ```
+```
+docker -D build --tag postgresql-zhparser --no-cache --progress=plain .
+```
 or without debug log
 ``` docker build --tag postgresql-zhparser . ```
 
